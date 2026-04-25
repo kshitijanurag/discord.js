@@ -5,8 +5,6 @@ import { sharedClientThemePredicate } from './Assertions.js';
 
 /**
  * A builder that creates API-compatible JSON data for shared client themes.
- *
- * @see {@link https://discord.com/developers/docs/resources/message#shared-client-theme-object}
  */
 export class SharedClientThemeBuilder implements JSONEncodable<APIMessageSharedClientTheme> {
 	/**
